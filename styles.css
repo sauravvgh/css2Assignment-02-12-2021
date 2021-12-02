@@ -1,0 +1,17 @@
+:root{
+    --text: black;
+    --background: teal;
+    --font-size : 20 em ;
+
+}
+:body{
+    background-color : blue;
+}
+
+div{
+    color: var(--text);
+    font-size: var(--font-size);
+}
+body{
+    background-color: var(--background);
+}
